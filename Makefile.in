@@ -346,7 +346,7 @@ $(srcdir)/Makefile.in:  $(srcdir)/Makefile.am  $(am__configure_deps)
 	  case '$(am__configure_deps)' in \
 	    *$$dep*) \
 	      echo ' cd $(srcdir) && $(AUTOMAKE) --foreign'; \
-	      $(am__cd) $(srcdir) && $(AUTOMAKE) --foreign \
+	      $(am__cd) $(srcdir) && $(AUTOMAKE) --foreign --add-missing\
 		&& exit 0; \
 	      exit 1;; \
 	  esac; \
