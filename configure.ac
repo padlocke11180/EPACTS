@@ -4,7 +4,7 @@
 AC_PREREQ([2.65])
 AC_INIT([EPACTS], [3.3.0], [hmkang@umich.edu])
 #AM_INIT_AUTOMAKE(EPACTS, 3.3.0)
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([no-define])
 #AC_CONFIG_SRCDIR([src/Anno.cpp])
 AC_CONFIG_HEADERS([config.h])
 
